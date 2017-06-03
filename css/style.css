@@ -11,7 +11,7 @@ h5,
 h6 {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .clear-fix {
@@ -95,7 +95,7 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #f3f3f3;
+  color: #000;
   line-height: 28px;
 }
 
@@ -105,7 +105,7 @@ a {
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #fff;
 }
 
 .orange-text {
@@ -113,23 +113,25 @@ a {
 }
 
 .white-text {
-  font-weight: bold;
-  color: #fff;
+  font-weight: 300;
+  color: #000;
 }
 
 .gray {
-  background-color: #f3f3f3;
+  background-color: #fff;
   padding-bottom: 10px;
+  margin: 0 0 10px 0;
+  box-shadow: 2px 2px 4px gray;
   clear: both;
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+  background-color: #fff;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #fff;
 }
 
 .flex-box {
@@ -158,9 +160,12 @@ ul {
 
 .biopic {
   float: left;
-  padding: 10px;
+  padding: 0;
+  margin: 10px 10px 10px 10px;
   width: 200px;
   display: none;
+  border-radius: 50%;
+  box-shadow: 1px 2px 4px grey;
 }
 
 img {
